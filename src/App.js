@@ -1,7 +1,12 @@
+import Slider from './Components/Slider/Slider';
 import './App.css';
 
 function App() {
-  return <div className='App'></div>;
+  return (
+    <>
+      <Slider />
+    </>
+  );
 }
 
 export default App;
